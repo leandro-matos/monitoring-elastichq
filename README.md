@@ -37,7 +37,7 @@ Acesse via navegador:
 $ http://seuip:5000
 ```
 
-#### Criando o daemon do elastichq:
+#### **Criando o daemon do elastichq**
 
 Criando o arquivo de configuração:
 ```sh
@@ -88,7 +88,7 @@ Checar o status
 $ sudo systemctl status elastichq.service
 ```
 
-Alguns exemplos de visualização por meio do ElasticHQ
+### **Alguns exemplos de visualização por meio do ElasticHQ**
 
 ### Visão Geral:
 ![](images/elastichq-index.PNG)
