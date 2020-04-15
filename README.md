@@ -64,13 +64,22 @@ StandardOutput=journal
 
 WantedBy=multi-user.target
 ```
-Instale as dependências:
+
+Reload do daemon
 ```sh
-$ npm install
+$ sudo systemctl daemon-reload
 ```
-Inicie o servidor:
+Habilitar o serviço
 ```sh
-$ npm start
+$ sudo systemctl enable elastichq.service
+```
+Iniciar o serviço
+```sh
+$ sudo systemctl start elastichq.service
+```
+Checar o status
+```sh
+$ sudo systemctl status elastichq.service
 ```
 
 ----------
