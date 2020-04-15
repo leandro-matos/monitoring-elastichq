@@ -38,9 +38,14 @@ Acesse via navegador:
 $ http://seuip:5000
 ```
 
-É possível testar o funcionamento dessa ferramenta, subindo um ELK.
+### **Testando o acesso**
+----------
+
+É possível testar o funcionamento dessa ferramenta, subindo um ELK, depois basta acessar informar o endereço do cluster dentro do ElasticHQ
  
 No link à seguir tem um projeto com mais detalhes: https://github.com/leandro-matos/docker-elastic-kibana 
+
+Também é possível efetuar os testes usando o docker-compose.yml desse projeto.
 
 
 #### **Criando o daemon do elastichq**
