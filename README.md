@@ -82,7 +82,9 @@ Checar o status
 $ sudo systemctl status elastichq.service
 ```
 
+
 Para mais informações, consulte também: http://docs.elastichq.org/installation.html
+
 
 ----------
 
