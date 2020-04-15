@@ -38,6 +38,10 @@ Acesse via navegador:
 $ http://seuip:5000
 ```
 
+É possível testar o funcionamento dessa ferramenta, subindo um ELK. 
+No link à seguir tem um projeto com mais detalhes: https://github.com/leandro-matos/docker-elastic-kibana 
+
+
 #### **Criando o daemon do elastichq**
 ----------
 
