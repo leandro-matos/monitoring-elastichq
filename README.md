@@ -1,4 +1,4 @@
-## :books: Instalação da aplicação:
+## :books: ElasticHQ - Management and Monitoring for Elasticsearch.
 
 Ao configurar um cluster de Elastic, é possível também configurar o painel ElasticHQ para fins de monitoramento. Basta seguir os passos abaixo:
 
