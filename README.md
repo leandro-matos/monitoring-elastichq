@@ -90,12 +90,9 @@ $ sudo systemctl status elastichq.service
 
 ### **Alguns exemplos de visualização por meio do ElasticHQ**
 
-### Visão Geral:
 ![](images/elastichq-index.PNG)
 
-### Nodes/Índices:
 ![](images/elastichq-index2.PNG)
-
 
 
 ## **Links Úteis**
