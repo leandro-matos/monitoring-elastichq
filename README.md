@@ -12,7 +12,13 @@ Ao configurar um cluster de Elastic, é possível também configurar o painel El
 Baixe e descompacte o conteúdo do arquivo zip no path /var/lib/elastichq
 
 ```sh
-$ git clone https://github.com/ElasticHQ/elasticsearch-HQ /var/lib/elastichq
+$ sudo git clone https://github.com/ElasticHQ/elasticsearch-HQ /var/lib/elastichq
+```
+
+Instale o pip3 (caso não esteja instalado)
+
+```sh
+$ sudo apt install python3-pip
 ```
 
 Navegue para o path /var/lib/elastichq  e instale usando o pip3
@@ -81,6 +87,19 @@ Checar o status
 ```sh
 $ sudo systemctl status elastichq.service
 ```
+
+Alguns exemplos de visualização por meio do ElasticHQ
+
+### Metricbeat:
+![](images/elastichq.PNG)
+
+### Metricbeat:
+![](images/elastichq-index.PNG)
+
+### Auditbeat:
+![](images/elastichq-index2.PNG)
+
+
 
 ## **Links Úteis**
 * [Documentação Oficial](http://docs.elastichq.org/installation.html)
