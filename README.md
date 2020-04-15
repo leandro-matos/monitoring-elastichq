@@ -8,6 +8,7 @@ Ao configurar um cluster de Elastic, é possível também configurar o painel El
 -	Python 3.4+
 
 ### **Instalação**
+----------
 
 Baixe e descompacte o conteúdo do arquivo zip no path /var/lib/elastichq
 
@@ -38,6 +39,7 @@ $ http://seuip:5000
 ```
 
 #### **Criando o daemon do elastichq**
+----------
 
 Criando o arquivo de configuração:
 ```sh
@@ -89,6 +91,7 @@ $ sudo systemctl status elastichq.service
 ```
 
 ### **Alguns exemplos de visualização por meio do ElasticHQ**
+----------
 
 ![](images/elastichq-index.PNG)
 
