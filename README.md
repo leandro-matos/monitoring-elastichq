@@ -90,13 +90,10 @@ $ sudo systemctl status elastichq.service
 
 Alguns exemplos de visualização por meio do ElasticHQ
 
-### Metricbeat:
-![](images/elastichq.PNG)
-
-### Metricbeat:
+### Visão Geral:
 ![](images/elastichq-index.PNG)
 
-### Auditbeat:
+### Nodes/Índices:
 ![](images/elastichq-index2.PNG)
 
 
