@@ -2,12 +2,12 @@
 
 Ao configurar um cluster de Elastic, é possível também configurar o painel ElasticHQ para fins de monitoramento. Basta seguir os passos abaixo:
 
-#### Requisitos:
+### Requisitos:
 
 -   Elasticsearch à partir da versão 5.x
 -	Python 3.4+
 
-#### Instalação:
+### Instalação:
 
 Baixe e descompacte o conteúdo do arquivo zip no path /var/lib/elastichq
 
@@ -82,7 +82,7 @@ Checar o status
 $ sudo systemctl status elastichq.service
 ```
 
-# **Links Úteis**
+## **Links Úteis**
 * [Documentação Oficial](http://docs.elastichq.org/installation.html)
 * [Site oficial](https://www.elastichq.org/)
 ----------
