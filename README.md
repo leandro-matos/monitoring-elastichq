@@ -40,7 +40,7 @@ $ sudo vi /lib/systemd/system/elastichq.service
 
 Basta adicionar o script abaixo para criação do serviço
 ```sh
-$ [Unit]
+[Unit]
 
 Description=Elastic HQ
 
